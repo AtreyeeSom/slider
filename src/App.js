@@ -1,23 +1,32 @@
 import logo from './logo.svg';
 import './App.css';
 
+import Owldemo from './comp/owldemo';
+import Slick from './comp/slick';
+import Slii from './comp/slii';
+import Experi from './comp/experi';
+import Another from './comp/another';
+import Sauto from './comp/sauto';
+import Exp from './comp/exp'
+import {Demo} from "./Demo"
+import As from './comp/as';
+
+
+
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     
+     {/* <Owldemo/> */}
+     {/* <Slick/> */}
+    {/* <Slii/> */}
+    {/* <Experi/> */}
+    {/* <Another/> */}
+    {/* <Sauto/> */}
+    <Demo/>
+    {/* <As/> */}
+    {/* <Exp/> */}
     </div>
   );
 }
