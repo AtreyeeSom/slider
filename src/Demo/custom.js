@@ -7,7 +7,6 @@ import './slick.min.js';
 import "./slick-animation.min.js"
 
 
-
 $(document).ready(function ($) {
 $('.slider').slick({
       autoplay: true,

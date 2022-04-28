@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-import './style.css'
+
 import { Animated } from "react-animated-css";
 export default class Another extends Component {
   render() {

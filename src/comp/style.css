@@ -1,11 +1,4 @@
-/* .slick-dots li.slick-active button:before {
-    color: #881798;
-  }
-  
-  .slick-prev:before,
-  .slick-next:before {
-    color: #881798;
-  } */
+
   .banner__slider {
     position: relative;
   }
@@ -32,7 +25,7 @@
       height: 200px;
       z-index: 9;
   }
-  @media (min-width: 1192px) {
+  @media (min-width: 992px) {
     .slider,
   .slide {
       height: 80vh;
@@ -63,75 +56,4 @@
     -webkit-animation-duration: 3s;
             animation-duration: 3s;
     transition: all 1s ease;
-  }
-  .slide .slide__content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  .slide .slide__content.slide__content__left {
-    left: 15%;
-    transform: translate(-15%, -50%);
-  }
-  .slide .slide__content.slide__content__right {
-    right: -10%;
-    left: auto;
-    transform: translate(5%, -50%);
-  }
-  .slide .slide__content--headings {
-    color: #fff;
-  }
-  .slide .slide__content--headings h2 {
-    font-size: 4.5rem;
-    margin: 10px 0;
-  }
-  .slide .slide__content--headings .animated {
-    transition: all 0.5s ease;
-  }
-  .slide .slide__content--headings .top-title {
-    font-size: 2.5rem;
-    font-family: 'Montserrat', sans-serif;
-    color: #090080;
-    text-transform: uppercase;
-  font-size: 23px;
-  font-weight: bold;
-  }
-  .slide .slide__content--headings p {
-    font-size: 2.5rem;
-    font-family: 'Montserrat', sans-serif;
-    color: #191717;
-    font-size: 18px;
-     width: 55%;
-     padding-top: 15px;
-     /* float: right; */
-  }
-  .slide .slide__content--headings h2 {
-    font-family: LibreBodoni-Regular;
-    font-size: 49px;
-    color:#011f2e;
-    margin: 0;
-  
-  }
-  .slide .slide__content--headings h3 {
-    font-family: LibreBodoni-Bold;
-    font-size: 67px;
-    color:#011f2e;
-    margin: 0;
-    line-height: 50px;
-  
-  }
-  .slide .slide__content--headings .button-custom {
-    text-decoration: none;
-    color: #333;
-    padding: 1.2rem 2.5rem;
-    font-size: 1.5rem;
-  }
-  
-  .slider [data-animation-in] {
-    opacity: 0;
-    -webkit-animation-duration: 1.5s;
-            animation-duration: 1.5s;
-    transition: opacity 0.5s ease 0.3s;
-    transition: 1s;
   }

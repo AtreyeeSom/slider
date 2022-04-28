@@ -11,6 +11,9 @@ import Exp from './comp/exp'
 import {Demo} from "./Demo"
 import As from './comp/as';
 
+import Design from './comp/design';
+
+
 
 
 
@@ -22,11 +25,14 @@ function App() {
      {/* <Slick/> */}
     {/* <Slii/> */}
     {/* <Experi/> */}
-    {/* <Another/> */}
+   {/* <Another/>  */}
     {/* <Sauto/> */}
     <Demo/>
     {/* <As/> */}
     {/* <Exp/> */}
+    
+    {/* <Design/> */}
+  
     </div>
   );
 }
